@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.root{
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child1,
+.child2{
+    width:100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.child1{
+    background-color: red;
+    animation: kyithu 2s infinite alternate;
+}
+
+.child2{    
+    background-color: green;
+    animation: kyithu 2s infinite alternate-reverse;
+}
+
+@keyframes kyithu{
+    0%{
+        top:0;
+        left:0;
+    }
+    100%{
+        top:80%;
+        left: 80%;
+    }
+}
