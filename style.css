@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.main {
+    margin-left: 150px;
+    margin-right: 120px;
+}
+
+.menu {
+    margin-bottom: 50px;
+    
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 700px;
+}
+.header {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 80px;
+    line-height: 85px;
+    text-align: left;
+    width: 700px;
+    background: linear-gradient(
+        81.84deg
+        , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    color: transparent;
+    -webkit-background-clip: text;
+
+
+}
+.description {
+    font-size: 20px;
+    font-weight: 400px;
+    word-break: keep-all;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color:rgba(0,0,0, .55)
+
+}
+.left {
+    display: inline-block;
+    width: 40%;
+    
+}
+.right {
+    display: inline-block;
+    width: 40%;
+   
+}
+
+
+.chatphoto {
+    width: 120%;
+    margin-left: 200px;
+    padding: 0px;
+    border: none;
+    
+}
+.menuitem {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 30px;
+    font-size: 15;
+
+}
+
+.menuitem:hover {
+    border-bottom-style: solid;
+}
+.blockelement {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:none;
+    border-radius: 15px;
+    background: rgba(0,0,0, .04);
+    color: rgba(0,0,0,1);
+    box-sizing: border-boxno;
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    outline: none;
+}
+.loginbuttom {
+    border: none;
+    border-radius: 15px;
+    background-color: #0084ff;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.logintext {
+    color: #0084ff;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.signintext {
+    margin-bottom: 40px;
+    
+}
+.footer {
+    background: linear-gradient(
+        81.84deg
+        , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    padding: 30px;
+    margin-top: 30px;
+
+}
+.bottom {
+    margin: 0px;
+    text-align: center;
+}
