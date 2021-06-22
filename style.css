@@ -23,13 +23,9 @@
     line-height: 85px;
     text-align: left;
     width: 700px;
-    background: linear-gradient(
-        81.84deg
-        , #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
+    background: linear-gradient(81.84deg, #0099ff -9.4%, #a033ff 51.57%, #ff5280 84.07%, #ff7061 90.59%);
     color: transparent;
     -webkit-background-clip: text;
-
-
 }
 .description {
     font-size: 20px;
